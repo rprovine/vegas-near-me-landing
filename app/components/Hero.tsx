@@ -1,14 +1,10 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import styles from "./Hero.module.css";
 
 export default function Hero() {
   return (
-    <section
-      className="bg-cover bg-center h-[70vh] flex items-center"
-      style={{
-        backgroundImage: "url('/hero_image.jpg?height=1080&width=1920')",
-      }}
-    >
+    <section className={`${styles.heroSection} h-[70vh] flex items-center`}>
       <div className="container mx-auto px-4 text-center flex flex-col items-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 shadow-text">
           Experience the{" "}

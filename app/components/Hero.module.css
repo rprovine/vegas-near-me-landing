@@ -1,0 +1,11 @@
+.heroSection {
+  background-image: url("/hero_image_portrait.jpg?height=1080&width=1920");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .heroSection {
+    background-image: url("/hero_image_landscape.jpg?height=1080&width=1920");
+  }
+}
