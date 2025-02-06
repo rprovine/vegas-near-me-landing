@@ -1,39 +1,59 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <header className="bg-white shadow-md">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center space-x-2">
+      <div className="container mx-auto px-8 py-6 flex justify-between items-center">
+        <Link href="/" className="flex items-center mr-4">
           <Image
-            src="/placeholder.svg?height=50&width=50"
+            src="/VNM_Dark.png"
             alt="VegasNearMe Logo"
-            width={50}
-            height={50}
-            className="rounded-full"
+            width={140}
+            height={140}
+            priority
+            className="p-2"
           />
-          <span className="text-xl font-bold text-gray-800">VegasNearMe</span>
         </Link>
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <Link href="#" className="text-gray-600 hover:text-gray-800">
+              <Link
+                href="https://vegasnearme.com"
+                className="text-gray-600 hover:text-gray-800"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-gray-600 hover:text-gray-800">
+              <Link
+                href="https://www.vegasnearme.com/shows/in/February-2025"
+                className="text-gray-600 hover:text-gray-800"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Shows
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-gray-600 hover:text-gray-800">
-                About
+              <Link
+                href="https://www.vegasnearme.com/blog"
+                className="text-gray-600 hover:text-gray-800"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blog
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-gray-600 hover:text-gray-800">
+              <Link
+                href="https://site.vegasnearme.com/contact"
+                className="text-gray-600 hover:text-gray-800"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Contact
               </Link>
             </li>
@@ -41,6 +61,5 @@ export default function Header() {
         </nav>
       </div>
     </header>
-  )
+  );
 }
-

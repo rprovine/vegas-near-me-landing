@@ -1,13 +1,20 @@
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 interface Show {
-  id: number
-  name: string
-  description: string
-  image: string
-  link: string
+  id: number;
+  name: string;
+  description: string;
+  image: string;
+  link: string;
 }
 
 export default function ShowCard({ show }: { show: Show }) {
@@ -34,6 +41,5 @@ export default function ShowCard({ show }: { show: Show }) {
         </Button>
       </CardFooter>
     </Card>
-  )
+  );
 }
-
