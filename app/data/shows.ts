@@ -3,7 +3,7 @@ export const shows = [
     id: 1,
     name: "Cirque du Soleil - O",
     description:
-      "An aquatic tapestry of artistry, surrealism and theatrical romance.",
+      "An aquatic tapestry of artistry, surrealism and theatrical romance. The original Cirque du Soleil show.",
     image: "/shows/cirque_o.jpg",
     link: "https://vegas.vdvm.net/c/5420665/269518/4221?prodsku=597&u=https%3A%2F%2Fwww.vegas.com%2Fshows%2Fcirque-du-soleil%2Fo-las-vegas%2F&intsrc=CATF_1879",
   },
