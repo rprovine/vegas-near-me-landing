@@ -38,7 +38,7 @@ export default function Hero() {
         <p className="text-lg md:text-xl text-white/90 mt-16 italic shadow-text max-w-2xl mx-auto font-medium leading-relaxed">
           Our selections are curated by our expert team of Las Vegas Data
           Specialists utilizing a combination of personal experiences, data
-          analysis, and market data.
+          analysis, and sales data.
         </p>
       </div>
     </section>
